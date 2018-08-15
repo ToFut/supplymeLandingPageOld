@@ -1,0 +1,141 @@
+#header {
+  background-color: #26d367; /* Green */
+  width: 100%;
+}
+.container-fluid{
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* position: fixed; */
+  width: 100%;}
+
+#icon {
+  margin-left: 2em;
+}
+.showApp {
+  margin-top: 6em;
+  float: right;
+  margin-right: 2em;
+  margin-top: 0em;
+}
+#firstP{
+  width: 100%;
+  color: #26d367; /* Green */
+  font-size: 3rem;
+  display: inline-block;
+  font-weight: bold;
+  float:left;
+  text-align: center;
+
+}
+#content{
+  font-size: medium;
+  color: #26d367; /* Green */
+  text-align: center;
+
+}
+.button {
+  background-color: #26d367; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: list-item;
+  border-radius: 5px;
+  margin-left: 10px;
+  text-align: center;
+
+}
+
+.button1 {
+  background-color: #26d367;
+  margin-top: 2em;
+  position:initial;
+  transition: .5s ease;
+  top: 50%;
+  left: 15%;
+  color: white;
+  text-align: center;
+
+}
+.paragrph {
+  text-align: center;
+}
+.icons{
+background-color: #26d367;
+  width: 100%;
+  position: fixed;
+  top: 85%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  }
+a{
+  width: 9em;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.flex > div {
+  color: white;
+}
+.flex > div > label{
+  color: white;
+  display: table;
+}
+
+@media only screen and (max-width: 780px) {
+  iframe {
+    width: 100%;
+    height: 22em;
+    padding: 15px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+  }
+  .links{
+  }
+}
+
+@media only screen and (min-width: 781px) {
+  iframe {
+    width: 100%;
+    height: 22em;
+    padding: 15px;
+    border-radius: 10px;
+    padding-bottom: 50px;  }
+  .links{
+    display: inline-flex;
+    text-align: center;
+
+  }
+
+}
+.buttons {
+  display: inline-flex;
+  text-align: center;
+
+}
+#hand {
+  width: 36em;
+  height: 21em;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 9em;
+  margin-left: 18%;
+}
+#share{
+  float: right;
+  margin-top: 1em;
+  margin-right: 1em;
+  color: white;}

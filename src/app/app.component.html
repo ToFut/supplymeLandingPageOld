@@ -1,20 +1,44 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="container-fluid">
+  <div id="header">
+    <img id="icon" src="../assets/logowithoutbackground_1.png" height="100em">
+    <i id="share" (click)="shareApp()" class="fa fa-share-alt fa-2x"></i>
 
+  </div>
+
+    <div class="paragrph">
+    <div id="firstP">SupplyME</div>
+    <p id="content">ניהול ספקים , הזמנה וקבלת סחורה , מעקב נוח על הרכש הכל בנייד שלך</p>
+    <div class="buttons">
+      <button class="button button1 " (click)="toSupplyMe()" routerLinkActive="active"> נסה בחינם</button>
+      <button class="button button1 " (click)="call()" routerLinkActive="active"> ליצירת קשר</button>
+    </div>
+  </div>
+<div class="paragrph">
+    <div class="links">
+
+      <iframe src="https://www.youtube.com/embed/dbngXs3DsUQ" frameborder="0"
+              allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+      <div class="showApp">
+        <img id="hand" src="../assets/schermafbeelding%202018-01-28%20om%20122748%202.png">
+      </div>
+    </div>
+</div>
+  <div class="icons">
+    <div class="flex">
+      <div>
+        <i class="fas fa-bolt fa-2x"></i>
+        <label> מהירות</label>
+      </div>
+      <div>
+        <i class="fas fa-coffee fa-2x"></i>
+        <label> נוחות </label>
+      </div>
+      <div>
+        <i class="far fa-lightbulb fa-2x"></i>
+        <label> יעילות </label>
+      </div>
+    </div>
+  </div>
+</div>
